@@ -1,0 +1,343 @@
+/* Reset default margin and padding for the body */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style the navbar */
+.navbar {
+    
+    display: flex;  
+    justify-content: space-around; 
+    align-content: center; 
+    padding: 10px 20px; 
+    position: fixed;
+    top: 20px;
+    font-size: large;
+}
+
+/* Style the logo */
+.logo img {
+   
+    height: 50px;
+    width: 50px; /* Adjust the width of the logo */
+}
+
+/* Style the list items */
+.nav-links {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    color: #0a0808;
+    margin-left: 60px
+}
+
+.nav-links li {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+/* Style the anchor links */
+.nav-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #070606;
+    margin-top: 5px; /* Text color of links */
+}
+
+/* Style the buttons */
+.btn1 {
+    color: #0a0808; 
+    border: 2px solid rgb(234, 14, 14);
+    border-radius: 20px; 
+    padding: 5px 20px; 
+    margin-left:600px ;
+   
+}
+.btn1:hover{
+    background-color: rgb(225, 20, 20);
+    color: #fff;
+    cursor: pointer;
+}
+.btn2 {
+    color: #0a0808; 
+    border: 2px solid rgb(234, 14, 14);
+    border-radius: 20px; 
+    padding: 5px 20px; 
+   
+   
+}
+.btn1:hover{
+    background-color: rgb(225, 20, 20);
+    color: #fff;
+    cursor: pointer;
+}
+ .container{
+    height: 400px;
+    width: 100%;
+   background-image: url(/rykimg/dc.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    display: flex;
+    align-items: center;
+    color: rgb(8, 9, 9);
+    /* border: 2px solid black; */
+    
+
+}
+.main{
+    height: 300px;
+    width: 50%;
+    margin-top: 150px;
+    /* border: 2px solid black; */
+    /* margin-left: 50px; */
+}
+h1{
+    margin-left: 30px;
+}
+h6{
+    margin-left: 30px;
+}
+#p{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: small;
+}
+#a{
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgb(189, 22, 22);
+   padding: 10px 30px ;
+}
+.alpha{
+    margin-top: 5px;
+    height: 300px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: rgb(3, 7, 10);
+    /* border: 2px solid black; */
+}
+.box1{
+    margin-top: 10px;
+    height: 100px;
+    width: 40%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+.box2{
+    height: 130px;
+    width: 40%;
+    /* border: 2px solid black */
+}
+.box1 img{
+    height: 50%;
+    width: 15%;
+    border: 2px solid rgb(236, 15, 15);
+    border-radius: 50%;
+ } 
+.a{
+    margin-left: 30px;
+    font-weight: 20px;
+}
+.b{
+    text-align: center;
+}
+#c{
+    margin-right: 100px;
+    /* padding-bottom: -40px; */
+    /* text-align: center; */
+}
+ small{
+    text-align: center;
+    font-weight: 20px;
+
+}
+.bo{
+    /* text-align: center; */
+    width: 60%;
+    /* border: 2px solid black; */
+}
+.gama{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(244, 249, 248);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(9, 10, 11);
+    /* border: 2px solid black; */
+    margin-top: 5px;
+}
+.Box5{
+    align-items: center;
+    height: 300px;
+    width: 40%;
+    /* border: 2px solid black; */
+}
+.Box5 img{
+    height: 82%;
+    padding: 50px 0px 0px 0px;
+}
+button{
+    margin-left: 30px;
+    padding: 15px 10px 15px 10px;
+    background-color: red;
+}
+h1{
+    margin-left: 30px;
+}
+h6{
+    margin-left: 30px;
+}
+#s{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#S{
+    margin-left: 30px;
+    /* margin-top: 150px; */
+}
+.Box6{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+    height: 100px;
+    width: 70%;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+}
+/* .a1{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(224, 143, 13);
+    color: rgb(6, 7, 7);
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black
+} */
+
+.beta{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(247, 245, 242);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-content: center; */
+    color: rgb(6, 7, 7);
+    /* margin-top: 5px; */
+    margin-bottom: 55px;
+    /* border: 2px solid black; */
+}
+.box3{
+    height: 300px;
+    width: 30%;
+    /* border: 3px solid black; */
+    text-align: center;
+} 
+img{
+    width: 100%;
+    height: 60%;
+} 
+.BS{
+    margin :50px 0px 0 0;
+    padding: 10px 0 10px 0;
+    /* border: 2PX solid black; */
+    border-radius: 5px;
+    background-color: darkgrey;
+}
+.sec{
+    height: 500px;
+    width: 100%;
+    background-image: url(/rykimg/images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pg{
+    height: 450px;
+    width:50%;
+    border: 2 px solid black;
+    background-color: red;
+    margin-left: 40%;
+    display:  flex;
+    /* justify-content: center; */
+
+
+}
+.pg img{
+    margin-top: 30px;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+
+}
+.gender{
+    margin-top: 20px;
+    height: 20px;
+    width: 35%;
+    /* border: 1px solid black; */
+}
+.for{
+    height: 130px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:  30px 0 0 0;
+}
+.ch{
+    text-align: center;
+    height: 10px;
+    width: 90%;
+    padding  :10px 0 20px 0;
+    margin:  40px 0 0 0;
+    border-radius: 30px;
+
+    background-color: #fff;
+}
+.last{
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+.sb{
+    height: 300px;
+    width: 250px;
+    /* border: 1px solid black; */
+    padding-left:  20px;
+    
+}
+.sb img{
+    height: 50px;
+    width: 50px;
+}
+li{
+    color: gray;
+}
+li:hover{
+    color: rgb(160, 25, 25);
+    cursor: pointer;
+}
+
+
+
+
